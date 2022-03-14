@@ -1,0 +1,46 @@
+{
+  "src_folders" : ["tests"],
+  "page_objects_path": [ "pages" ],
+
+  "test_settings" : {
+    "default" : {
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      },
+      "webdriver" :{
+        "start_process": true,
+        "server_path": "node_modules/.bin/chromedriver",
+        "port": 4444
+      }
+    },
+    "test_workers":{
+        "enabled": true,
+        "workers": "auto"
+    },
+    "firefox": {
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "marionette": true
+      },
+      "webdriver":{
+        "start_process": true,
+        "server_path": "node_modules/.bin/geckodriver",
+        "port": 4446
+      }
+    },
+    "safari": {
+      "desiredCapabilities": {
+        "browserName": "safari",
+        "alwaysMatch": {
+            "acceptInsecureCerts": false
+        }
+      },
+      "webdriver": {
+          "port": 4445,
+          "start_process": true,
+          "server_path": "/usr/bin/safaridriver"
+      }
+    }
+  }
+}
+

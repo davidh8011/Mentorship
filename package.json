@@ -1,0 +1,18 @@
+{
+  "name": "mentorship2022_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^98.0.0",
+    "geckodriver": "^3.0.1",
+    "nightwatch": "^2.0.7",
+    "selenium-server": "^3.141.59"
+  }
+}

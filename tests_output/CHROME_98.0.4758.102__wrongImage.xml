@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="wrongImage"
+    errors="0" failures="1" hostname="" id="" package="wrongImage" skipped="1"
+    tests="1" time="9.135" timestamp="">
+  
+    <testcase name="Right Image for Standard user" classname="wrongImage" time="9.135" assertions="1">  <failure message="Timed out while waiting for element &lt;#user-name&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5183ms)">    at Object.Right Image for Standard user (/Users/davidhoffman/Documents/Mentorship2022_2/tests/wrongImage.js:5:10)
+    at runMicrotasks (&lt;anonymous&gt;)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="Wrong Image for Problem user" classname="wrongImage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

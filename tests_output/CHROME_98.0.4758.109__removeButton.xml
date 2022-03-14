@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="removeButton"
+    errors="0" failures="1" hostname="" id="" package="removeButton" skipped="0"
+    tests="2" time="6.819" timestamp="">
+  
+    <testcase name="Remove button - Standard User" classname="removeButton" time="1.195" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Remove button - Problem User" classname="removeButton" time="5.624" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;#add-to-cart-sauce-labs-backpack&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5148ms)">    at Object.Remove button - Problem User (/Users/davidhoffman/Documents/Mentorship2022_2/tests/removeButton.js:27:15)
+    at runMicrotasks (&lt;anonymous&gt;)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

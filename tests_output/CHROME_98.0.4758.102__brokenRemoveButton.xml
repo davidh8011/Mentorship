@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="brokenRemoveButton"
+    errors="0" failures="1" hostname="" id="" package="brokenRemoveButton" skipped="0"
+    tests="2" time="9.108" timestamp="">
+  
+    <testcase name="Remove button - Standard user" classname="brokenRemoveButton" time="3.237" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Remove button - Problem User" classname="brokenRemoveButton" time="5.871" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#add-to-cart-sauce-labs-backpack&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5132ms)">    at Object.Remove button - Problem User (/Users/davidhoffman/Documents/Mentorship2022_2/tests/brokenRemoveButton.js:26:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

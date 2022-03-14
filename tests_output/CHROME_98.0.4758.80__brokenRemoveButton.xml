@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="brokenRemoveButton"
+    errors="0" failures="1" hostname="" id="" package="brokenRemoveButton" skipped="0"
+    tests="1" time="8.316" timestamp="">
+  
+    <testcase name="Login" classname="brokenRemoveButton" time="8.316" assertions="4">
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#add-to-cart-sauce-labs-backpack&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5102ms)">    at Object.Login (/Users/davidhoffman/Documents/Mentorship2022_2/tests/brokenRemoveButton.js:15:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

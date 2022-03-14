@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="2">
+
+  <testsuite name="removeButton"
+    errors="0" failures="2" hostname="" id="" package="removeButton" skipped="0"
+    tests="2" time="11.87" timestamp="">
+  
+    <testcase name="Remove button - Problem User" classname="removeButton" time="6.316" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;#add-to-cart-sauce-labs-backpack&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5098ms)">    at Object.Remove button - Problem User (/Users/davidhoffman/Documents/Mentorship2022_2/tests/removeButton.js:14:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Remove button - Standard User" classname="removeButton" time="5.552" assertions="1">  <failure message="Timed out while waiting for element &lt;#add-to-cart-sauce-labs-backpack&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5090ms)">    at Object.Remove button - Standard User (/Users/davidhoffman/Documents/Mentorship2022_2/tests/removeButton.js:23:8)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

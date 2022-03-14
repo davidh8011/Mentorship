@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="login"
+    errors="1" failures="0" hostname="" id="" package="login" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       SessionNotCreatedError: Could not create a session: You must enable the &#39;Allow Remote Automation&#39; option in Safari&#39;s Develop menu to control Safari via WebDriver.
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    </system-err>
+  
+
+    
+    <error message="Could not create a session: You must enable the &#39;Allow Remote Automation&#39; option in Safari&#39;s Develop menu to control Safari via WebDriver."><![CDATA[
+      SessionNotCreatedError: Could not create a session: You must enable the &#39;Allow Remote Automation&#39; option in Safari&#39;s Develop menu to control Safari via WebDriver.
+    at Object.throwDecodedError (/Users/davidhoffman/Documents/Mentorship2022_2/node_modules/selenium-webdriver/lib/error.js:539:15)
+    at parseHttpResponse (/Users/davidhoffman/Documents/Mentorship2022_2/node_modules/selenium-webdriver/lib/http.js:647:13)
+    at Executor.execute (/Users/davidhoffman/Documents/Mentorship2022_2/node_modules/selenium-webdriver/lib/http.js:573:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Login" classname="login">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

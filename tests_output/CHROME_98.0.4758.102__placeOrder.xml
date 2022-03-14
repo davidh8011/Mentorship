@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="placeOrder"
+    errors="0" failures="0" hostname="" id="" package="placeOrder" skipped="0"
+    tests="1" time="4.811" timestamp="">
+  
+    <testcase name="Place Order" classname="placeOrder" time="4.811" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

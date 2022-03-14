@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="login"
+    errors="0" failures="1" hostname="" id="" package="login" skipped="0"
+    tests="1" time="7.698" timestamp="">
+  
+    <testcase name="Login" classname="login" time="7.698" assertions="1">  <failure message="Testing if element &lt;#inventory_container&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5152ms)">    at Object.Login (/Users/davidhoffman/Documents/Mentorship2022_2/tests/login.js:10:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

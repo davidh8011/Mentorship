@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="image"
+    errors="0" failures="1" hostname="" id="" package="image" skipped="0"
+    tests="2" time="6.418" timestamp="">
+  
+    <testcase name="Right Image for Standard user" classname="image" time="0.8850" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Wrong Image for Problem user" classname="image" time="5.533" assertions="1">  <failure message="Testing if element &lt;.inventory_item_img #item_4_img_link img[src=&#34;/static/media/sauce-backpack-1200x1500.34e7aa42.jpg&#34;]&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5067ms)">    at Object.Wrong Image for Problem user (/Users/davidhoffman/Documents/Mentorship2022_2/tests/image.js:16:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
