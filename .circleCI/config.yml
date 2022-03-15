@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    docker:
+    - image: circleci/node:10.12.0-browsers
+    working_directory: ~/nw-ci-medium
+    steps:
+    - checkout
+    - run:
+        name: Installing nightwatch & Web drivers
+        command: ls && npm install
+    - run:
+        name: Run integration test
+        command: npm test
+    - store_artifacts:
+        path: Result
+    - store_test_results:
+        path: Result
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - build
