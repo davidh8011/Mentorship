@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
     - image: circleci/node:10.12.0-browsers
-    working_directory: ~/nw-ci-medium
+    working_directory: ~/tests
     steps:
     - checkout
     - run:
