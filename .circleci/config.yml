@@ -15,3 +15,7 @@ jobs:
       - browser-tools/install-browser-tools
 
       - run: npm install
+
+      # run tests!
+      - run: npm test
+      - run: npm run e2e-test
