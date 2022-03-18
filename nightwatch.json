@@ -4,13 +4,12 @@
 
   "test_settings" : {
     "default" : {
-      "desiredCapabilities": {
-        "browserName": "chrome"
-      },
-      "webdriver" :{
-        "start_process": true,
-        "server_path": "node_modules/.bin/chromedriver",
-        "port": 4444
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
+      "silent": true,
+      "screenshots": {
+        "enabled": false,
+        "path": ""
       }
     },
     "test_workers":{
