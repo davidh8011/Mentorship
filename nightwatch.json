@@ -10,6 +10,11 @@
       "screenshots": {
         "enabled": false,
         "path": ""
+      },
+      "webdriver" :{
+        "start_process": true,
+        "server_path": "node_modules/.bin/chromedriver",
+        "port": 4444
       }
     },
     "test_workers":{
