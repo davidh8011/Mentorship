@@ -10,8 +10,8 @@ jobs:
 
     steps:
       - checkout
-      - npm install geckodriver --save-dev
-      - npm install chromedriver --save-dev
+      - npm install geckodriver
+      - npm install chromedriver
 
       - run: npm install
 
