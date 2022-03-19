@@ -1,18 +1,17 @@
 version: 2.1
-orbs:
-  browser-tools: circleci/browser-tools@1.2.4
 jobs:
   build:
     docker:
       - image: 'cimg/node:15.0.1-browsers'
         auth:
           username: davidh80
-          password: Perry3411$
+          password: Docker$123!
     working_directory: ~/repo
 
     steps:
       - checkout
-      - browser-tools/install-browser-tools
+      - npm install geckodriver --save-dev
+      - npm install chromedriver --save-dev
 
       - run: npm install
 

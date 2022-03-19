@@ -5,9 +5,9 @@
 
   <testsuite name="cartIcon"
     errors="0" failures="0" hostname="" id="" package="cartIcon" skipped="0"
-    tests="1" time="1.223" timestamp="">
+    tests="1" time="1.353" timestamp="">
   
-    <testcase name="Cart Number Icon" classname="cartIcon" time="1.223" assertions="4">
+    <testcase name="Cart Number Icon" classname="cartIcon" time="1.353" assertions="4">
 
     
 
