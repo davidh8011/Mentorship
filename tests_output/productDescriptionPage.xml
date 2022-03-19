@@ -3,8 +3,8 @@
             failures="0"
             tests="0">
 
-  <testsuite name="removeButton"
-    errors="1" failures="0" hostname="" id="" package="removeButton" skipped="2"
+  <testsuite name="productDescriptionPage"
+    errors="1" failures="0" hostname="" id="" package="productDescriptionPage" skipped="1"
     tests="0" time="0.000" timestamp="">
   
 
@@ -143,12 +143,7 @@
   
     
     <testcase
-      name="Remove button - Problem User" classname="removeButton">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="Remove button - Standard User" classname="removeButton">
+      name="Product Description Page" classname="productDescriptionPage">
       <skipped />
     </testcase>
     
