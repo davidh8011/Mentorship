@@ -1,4 +1,6 @@
 version: 2.1
+orbs:
+  browser-tools: circleci/browser-tools@1.2.4
 jobs:
   build:
     docker:
@@ -10,8 +12,7 @@ jobs:
 
     steps:
       - checkout
-      - npm install geckodriver
-      - npm install chromedriver
+      - browser-tools/install-browser-tools
 
       - run: npm install
 
